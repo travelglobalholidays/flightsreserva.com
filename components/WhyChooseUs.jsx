@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionHeading from "./Common/Headings";
+import SectionHeading from "./common/Headings";
 
 const chooseData = [
   {

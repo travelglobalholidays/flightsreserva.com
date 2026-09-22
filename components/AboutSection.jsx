@@ -1,6 +1,6 @@
 import Image from "next/image";
-import CommonButton from "./Common/CommonButton";
-import SectionHeading from "./Common/Headings";
+import CommonButton from "./common/CommonButton";
+import SectionHeading from "./common/Headings";
 export default function AboutSection() {
   return (
     <section className="py-10 lg:py-[70px]">

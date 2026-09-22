@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaExchangeAlt } from "react-icons/fa";
-import SectionHeading from "./Common/Headings";
+import SectionHeading from "./common/Headings";
 import { CONTACT_INFO } from "@/config/ContactInfo";
 
 const flights = [

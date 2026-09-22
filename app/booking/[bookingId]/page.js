@@ -3,8 +3,8 @@
 import BookingSidebar from "@/components/Booking/BookingSidebar";
 import ChooseFareType from "@/components/Booking/ChooseFareType";
 import FlightDetails from "@/components/Booking/FlightDetails";
-import Footer from "@/components/Common/Footer";
-import Header from "@/components/Common/Header";
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
 import axiosInstance from "@/lib/axiosInstance";
 import { Loader2 } from "lucide-react";
 import { useParams } from "next/navigation";
