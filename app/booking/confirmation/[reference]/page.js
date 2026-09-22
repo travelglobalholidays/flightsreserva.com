@@ -1,8 +1,15 @@
 "use client";
 
-import Link from "next/link";
-import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import {
+  formatDate,
+  formatDuration,
+  formatMoney,
+  formatTime,
+  getCurrency,
+} from "@/components/Booking/bookingUtils";
+import Footer from "@/components/Common/Footer";
+import Header from "@/components/Common/Header";
+import axiosInstance from "@/lib/axiosInstance";
 import {
   CheckCircle,
   CreditCard,
@@ -14,16 +21,9 @@ import {
   User,
   XCircle,
 } from "lucide-react";
-import {
-  formatDate,
-  formatDuration,
-  formatMoney,
-  formatTime,
-  getCurrency,
-} from "@/components/Booking/bookingUtils";
-import Footer from "@/components/Common/Footer";
-import Header from "@/components/Common/Header";
-import axiosInstance from "@/lib/axiosInstance";
+import Link from "next/link";
+import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function BookingConfirmationPage() {
   const { reference } = useParams();

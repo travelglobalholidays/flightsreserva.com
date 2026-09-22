@@ -1,8 +1,5 @@
 "use client";
 
-import { Loader2 } from "lucide-react";
-import { useParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
 import BookingSidebar from "@/components/Booking/BookingSidebar";
 import ContactInfo from "@/components/Booking/ContactInfo";
 import FlightDetails from "@/components/Booking/FlightDetails";
@@ -14,6 +11,9 @@ import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import { useAuth } from "@/context/AuthContext";
 import axiosInstance from "@/lib/axiosInstance";
+import { Loader2 } from "lucide-react";
+import { useParams, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const emptyContact = {
   email: "",
@@ -132,7 +132,11 @@ export default function TravellersPage() {
           <div className="grid gap-6 lg:grid-cols-3">
             <div className="space-y-6 lg:col-span-2">
               <FlightDetails booking={booking} />
-              <ContactInfo contact={contact} setContact={setContact} user={user} />
+              <ContactInfo
+                contact={contact}
+                setContact={setContact}
+                user={user}
+              />
               <TravellersDetails
                 setTravellers={setTravellers}
                 travellers={travellers}

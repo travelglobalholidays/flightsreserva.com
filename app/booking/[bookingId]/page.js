@@ -1,14 +1,14 @@
 "use client";
 
-import { Loader2 } from "lucide-react";
-import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
 import BookingSidebar from "@/components/Booking/BookingSidebar";
 import ChooseFareType from "@/components/Booking/ChooseFareType";
 import FlightDetails from "@/components/Booking/FlightDetails";
 import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import axiosInstance from "@/lib/axiosInstance";
+import { Loader2 } from "lucide-react";
+import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const LoadingState = () => (
   <>
