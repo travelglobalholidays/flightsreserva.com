@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.flightsreserva.com
+
+# Sitemaps
+Sitemap: https://www.flightsreserva.com/sitemap.xml
