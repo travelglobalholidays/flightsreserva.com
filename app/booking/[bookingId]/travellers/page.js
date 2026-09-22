@@ -10,8 +10,8 @@ import TravellersDetails, {
   createInitialTravellers,
   toPassengerPayload,
 } from "@/components/Booking/TravellersDetails";
-import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
+import Footer from "@/components/Common/Footer";
+import Header from "@/components/Common/Header";
 import { useAuth } from "@/context/AuthContext";
 import axiosInstance from "@/lib/axiosInstance";
 

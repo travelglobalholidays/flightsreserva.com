@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import BookingSidebar from "@/components/Booking/BookingSidebar";
 import FlightDetails from "@/components/Booking/FlightDetails";
 import ServicesAddons from "@/components/Booking/ServicesAddons";
-import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
+import Footer from "@/components/Common/Footer";
+import Header from "@/components/Common/Header";
 import axiosInstance from "@/lib/axiosInstance";
 
 export default function AddonsPage() {
