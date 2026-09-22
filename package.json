@@ -10,6 +10,13 @@
     "lint": "next lint",
     "postbuild": "next-sitemap"
   },
+  "lavamoat": {
+    "allowScripts": {
+      "@tailwindcss/oxide": true,
+      "sharp": true,
+      "core-js": false
+    }
+  },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.3",
     "@radix-ui/react-popover": "^1.1.14",
